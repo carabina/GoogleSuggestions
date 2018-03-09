@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'GoogleSuggestions_Example' do
+  pod 'GoogleSuggestions', :path => '../'
+
+  target 'GoogleSuggestions_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
